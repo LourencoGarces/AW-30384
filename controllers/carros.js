@@ -8,7 +8,7 @@ exports.getAll = async (req, res) => {
 //devolve o carro com o id
 exports.getById = async (req, res) => {
     //obter o id do carro
-    const id = req.params.number;
+    const id = req.params.id;
     //just return same id
     return res.send(id);
 }
